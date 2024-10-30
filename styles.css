@@ -115,3 +115,9 @@ input[required] {
 a[target="_blank"]::after {
     content: " 🔗";
 }
+/* Pseudo-elements */
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3498db;
+}
