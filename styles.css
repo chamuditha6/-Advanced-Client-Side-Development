@@ -188,3 +188,18 @@ a {
 .profile-text {
     margin-left: 2rem;
 }
+/* Update the media query for responsiveness */
+@media screen and (max-width: 600px) {
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-bottom: 1rem;
+    }
+
+    .profile-text {
+        margin-left: 0;
+    }
+}
