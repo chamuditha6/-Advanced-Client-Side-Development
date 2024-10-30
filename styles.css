@@ -153,3 +153,7 @@ h2 + p {
 .project:hover {
     transform: scale(1.05);
 }
+/* Transitions */
+a {
+    transition: color 0.3s ease;
+}
