@@ -149,3 +149,7 @@ input:valid {
 h2 + p {
     font-style: italic;
 }
+/* Transforms */
+.project:hover {
+    transform: scale(1.05);
+}
