@@ -125,3 +125,7 @@ p::first-letter {
 button:active {
     transform: scale(0.98);
 }
+/* Child combinator */
+article > h3 {
+    color: #2c3e50;
+}
