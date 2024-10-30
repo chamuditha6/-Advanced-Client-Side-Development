@@ -137,3 +137,7 @@ li:first-child {
 input:not([type="checkbox"]) {
     border-radius: 4px;
 }
+/* Nth pseudo-class */
+article:nth-child(even) {
+    background-color: #f9f9f9;
+}
