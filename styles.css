@@ -133,3 +133,7 @@ article > h3 {
 li:first-child {
     font-weight: bold;
 }
+/* Negation pseudo-class */
+input:not([type="checkbox"]) {
+    border-radius: 4px;
+}
