@@ -104,3 +104,6 @@ button[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
