@@ -22,25 +22,148 @@
             <section id="projects">
                 <h2>My Projects</h2>
                 <article>
-                    <h3>Project 1: Portfolio Website</h3>
-                    <p>A responsive portfolio website built with HTML5 and CSS3.</p>
+                    <h3><b><u>Simple To-Do List App</u></b></h3>
+                    <h3>A simple web-based To-Do List App built with HTML5, CSS3, and JavaScript that allows users to manage tasks effectively. The app includes features to add, mark as complete, and delete tasks. It uses a clean, responsive design suitable for both desktop and mobile.
+
+                        Key Features:
+                        
+                        Add new tasks to stay organized.
+                        Mark tasks as complete.
+                        Delete tasks when no longer needed.
+                        This project demonstrates basic front-end development skills, including DOM manipulation, responsive design, and JavaScript functionality.</h3>
                 </article>
                 <article>
-                    <h3>Project 2: Task Manager App</h3>
-                    <p>A JavaScript-based task manager application.</p>
+                    <h3><b><u>Weather Dashboard</u></b></h3>
+                    <h3>A Weather Dashboard app built using HTML5, CSS3, and JavaScript, which allows users to view current weather conditions for any city worldwide. It utilizes a public weather API to fetch real-time weather data, including temperature, humidity, and a brief forecast.
+
+                        Key Features:
+                        
+                        Search Functionality to find weather information for specific cities.
+                        Current Weather Display with data on temperature, humidity, and weather description.
+                        Forecast Feature showing a 5-day weather outlook for selected cities.
+                        This project showcases skills in API integration, asynchronous JavaScript (AJAX/fetch), and responsive design to create a user-friendly and informative weather application.</h3>
                 </article>
             </section>
             <section id="blog">
                 <h2>Blog Posts</h2>
                 <article>
-                    <h3>The Importance of Semantic HTML</h3>
+                    <h2>Differences Between HTML and HTML5</h2>
+                    <h3>HTML5, the latest version of HTML (HyperText Markup Language), brings new features and improvements over traditional HTML. Here’s a comparison of some key differences:</h3>
+    
+            <!-- Table Comparing HTML and HTML5 -->
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>HTML</th>
+                    <th>HTML5</th>
+                </tr>
+                <tr>
+                    <td>Semantic Elements</td>
+                    <td>Limited semantic tags; relies heavily on <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> tags for layout.</td>
+                    <td>Introduces semantic tags like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;nav&gt;.</code></td>
+                </tr>
+                <tr>
+                    <td>Multimedia</td>
+                    <td>Requires plugins like Flash to embed audio and video.</td>
+                    <td>Supports native <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements for embedding multimedia without plugins.</td>
+                </tr>
+                <tr>
+                    <td>Form Input Types</td>
+                    <td>Limited to basic input types (e.g., <code>text</code>, <code>password</code>, <code>checkbox</code>).</td>
+                    <td>Introduces new input types, such as <code>email</code>, <code>date</code>, <code>number</code>, <code>range</code>, and more, for easier form validation.</td>
+                </tr>
+                <tr>
+                    <td>Graphics and Animation</td>
+                    <td>No built-in support for graphics; relies on external plugins for complex graphics.</td>
+                    <td>Includes <code>&lt;canvas&gt;</code> for 2D graphics and supports SVG (Scalable Vector Graphics) for vector images.</td>
+                </tr>
+                <tr>
+                    <td>Offline Support</td>
+                    <td>No offline storage; web apps require internet connection to function.</td>
+                    <td>Introduces Application Cache and Local Storage for offline capabilities, allowing data storage on the client side.</td>
+                </tr>
+                <tr>
+                    <td>Geolocation</td>
+                    <td>No native support for geolocation.</td>
+                    <td>Supports the Geolocation API, enabling access to user location with their permission.</td>
+                </tr>
+                <tr>
+                    <td>Performance</td>
+                    <td>Limited support for modern web applications, resulting in slower load times.</td>
+                    <td>Optimized for faster performance, with improved speed and reduced dependency on external plugins.</td>
+                </tr>
+            </table>
+    
+            <h3>Overall, HTML5 enhances web development by providing better structure, multimedia support, offline capabilities, and a wider range of functionalities, making it a powerful tool for modern websites and applications.</h3>
                     <p>Published on <time datetime="2024-05-15">May 15, 2024</time></p>
-                    <p>In this post, we discuss why using semantic HTML is crucial for accessibility and SEO.</p>
                 </article>
                 <article>
-                    <h3>CSS3 Animations: Bringing Websites to Life</h3>
+                    <h2>Introduction to Basic HTML5</h2>
+                    <h3>HTML5 is the latest version of HTML (HyperText Markup Language) and is the core technology used to create webpages. It introduces new elements and features that make it easier to structure content, embed multimedia, and create interactive applications. Let’s explore some of the basics of HTML5.</h3>
+    
+                    <h3><b>1. Document Structure</b></h3>
+                    <h3>An HTML5 document begins with the <code>&lt;!DOCTYPE html&gt;</code> declaration, which tells the browser that the document is using HTML5. The basic structure of an HTML5 document is:</h3>
+                    <pre><code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;title&gt;Page Title&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;!-- Content goes here --&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+                    </code></pre>
+            
+                    <h3><b>2. Semantic Elements</b></h3>
+                    <h3>HTML5 introduces semantic elements, which make it easier to define the structure of a webpage. Semantic elements describe their purpose in a more meaningful way, which improves readability and accessibility. Some of these new elements include:</h3>
+                    <ul>
+                        <li><code>&lt;header&gt;</code>: Represents the header section of a page or section.</li>
+                        <li><code>&lt;nav&gt;</code>: Defines a section with navigation links.</li>
+                        <li><code>&lt;main&gt;</code>: The main content area of a document.</li>
+                        <li><code>&lt;section&gt;</code>: A thematic grouping of content.</li>
+                        <li><code>&lt;article&gt;</code>: Independent content, like a blog post.</li>
+                        <li><code>&lt;footer&gt;</code>: Footer section for page or section information.</li>
+                    </ul>
+            
+                    <h3><b>3. Multimedia Elements</b></h3>
+                    <h3>Embedding multimedia is easier in HTML5 with the <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements. Here’s an example of embedding a video:</h3>
+                    <pre><code>
+            &lt;video controls&gt;
+                &lt;source src="sample-video.mp4" type="video/mp4"&gt;
+                Your browser does not support the video tag.
+            &lt;/video&gt;
+                    </code></pre>
+            
+                    <h3><b>4. New Form Elements</b></h3>
+                    <h3>HTML5 provides new input types and attributes for forms, which simplify validation and improve user experience. Some examples include:</h3>
+                    <ul>
+                        <li><code>&lt;input type="email"&gt;</code>: Validates an email format.</li>
+                        <li><code>&lt;input type="date"&gt;</code>: Provides a date picker.</li>
+                        <li><code>&lt;input type="range"&gt;</code>: Creates a slider for selecting a value.</li>
+                    </ul>
+            
+                    <h3><b>5. The Canvas Element</b></h3>
+                    <h3>The <code>&lt;canvas&gt;</code> element in HTML5 allows for dynamic, scriptable rendering of 2D shapes and images. It’s widely used for animations, games, and data visualizations. Here’s how you declare a basic canvas:</h3>
+                    <pre><code>
+            &lt;canvas id="myCanvas" width="200" height="100"&gt;
+                Canvas not supported.
+            &lt;/canvas&gt;
+                    </code></pre>
+            
+                    <h3><b>6. Offline Storage</b></h3>
+                    <h3>HTML5 includes features for offline storage, allowing web applications to save data on the client side. Two common methods are:</h3>
+                    <ul>
+                        <li>Application Cache: Stores resources for offline access.</li>
+                        <li>Local Storage: Stores data in key-value pairs for use in offline applications.</li>
+                    </ul>
+            
+                    <h3><b>Conclusion</b></h3>
+                    <h3>HTML5 brings many new features that make web development easier, more organized, and more powerful. From improved document structure to built-in multimedia and storage capabilities, HTML5 is essential for creating modern, responsive, and interactive web applications.</h3>
+                
+
                     <p>Published on <time datetime="2024-06-01">June 1, 2024</time></p>
-                    <p>Learn how to use CSS3 animations to create engaging user experiences.</p>
                 </article>
             </section>
         </main>

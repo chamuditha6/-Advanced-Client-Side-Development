@@ -58,6 +58,43 @@ h2 {
     border-bottom: 2px solid #3498db;
     padding-bottom: 0.5rem;
 }
+h3{
+    color:#2c3e50;
+    font-weight: normal;
+    font-size: medium;
+
+}
+code {
+    background: #e0e0e0;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
 
 /* Form styles */
 form {
@@ -203,3 +240,4 @@ a {
         margin-left: 0;
     }
 }
+
