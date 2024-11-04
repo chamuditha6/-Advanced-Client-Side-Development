@@ -1,49 +1,48 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 /* Base styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Apply Google Font */
     line-height: 1.6;
     color: #333;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0); /* Light gradient background */
 }
 
 /* Header styles */
 header {
-    background:  linear-gradient(to right, #2c3e50, #3498db);
+    background: linear-gradient(to right, #2c3e50, #3498db); /* Dark gradient background */
     color: #fff;
     padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
 }
 header h1 {
     margin: 0;
     font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for a glowing effect */
     text-align: center;
 }
+
+/* Navigation styles */
 nav ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove bullet points */
     padding: 0;
     text-align: center;
 }
-
 nav ul li {
-    display: inline;
+    display: inline; /* Horizontal layout */
     margin-right: 5rem;
     font-size: 1.5rem;
 }
-
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; /* Smooth transition for color change */
 }
-
 nav ul li a:hover {
-    color: #000000a4;
+    color: #000000a4; /* Semi-transparent black color on hover */
 }
 
 /* Main content styles */
@@ -53,56 +52,58 @@ main {
     margin: 0 auto;
 }
 
+/* Section heading styles */
 h2 {
     color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #3498db; /* Underline for headings */
     padding-bottom: 0.5rem;
     text-align: center;
     font-size: 40px;
 }
-h3{
-    color:#2c3e50;
+h3 {
+    color: #2c3e50;
     font-weight: normal;
     font-size: medium;
-
 }
+
+/* Inline code block styling */
 code {
     background: #e0e0e0;
     padding: 2px 4px;
     border-radius: 4px;
     font-size: 0.9em;
 }
-/* Card Container */
+
+/* Card container for projects */
 .project {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid #FF4081; /* Accent color on the left border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-left: 5px solid #FF4081; /* Accent color on left border */
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Smooth scaling transition */
 }
-
 .project:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Lift effect on hover */
 }
 
-/* Card Title */
+/* Card title styling */
 .project h3 {
     color: #6f99ed; /* Purple color for title */
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
-.project h4{
+.project h4 {
     color: #333;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-weight: normal;
 }
 
-/* Card Text */
+/* Card text styling */
 .project p {
     color: #333;
     margin-bottom: 1.5rem;
@@ -110,23 +111,23 @@ code {
     line-height: 1.5;
 }
 
-/* Button */
+/* Button styles */
 .project button, .project a.button {
-    background-color: #2196F3; /* Primary color for the button */
+    background-color: #2196F3; /* Primary button color */
     color: #fff;
     border: none;
     border-radius: 25px;
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-decoration: none; /* Make sure links styled as buttons have no underline */
+    transition: background-color 0.3s ease; /* Smooth color change */
+    text-decoration: none; /* Remove underline from links styled as buttons */
 }
-
 .project button:hover, .project a.button:hover {
     background-color: #1565C0; /* Darker shade for hover effect */
 }
 
+/* Article styling */
 article {
     max-width: 800px;
     margin: 0 auto;
@@ -135,6 +136,8 @@ article {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Table styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -146,11 +149,11 @@ th, td {
     border: 1px solid #ddd;
 }
 th {
-    background-color: #3498db;
+    background-color: #3498db; /* Blue header background */
     color: #fff;
 }
 tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Alternating row colors */
 }
 
 /* Form styles */
@@ -160,26 +163,22 @@ form {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 fieldset {
     border: 1px solid #ddd;
     margin-bottom: 1rem;
     padding: 1rem;
 }
-
 legend {
     font-weight: bold;
     color: #3498db;
 }
 
+/* Form input styles */
 label {
     display: block;
     margin-bottom: 0.5rem;
 }
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
+input[type="text"], input[type="email"], input[type="tel"], textarea {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -201,57 +200,65 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #2980b9;
 }
-/* Attribute selectors */
+
+/* Highlight required fields */
 input[required] {
     border-left: 3px solid #e74c3c;
 }
 
+/* Add icon after external links */
 a[target="_blank"]::after {
     content: " 🔗";
 }
-/* Pseudo-elements */
+
+/* First letter styling */
 p::first-letter {
     font-size: 1.5em;
     font-weight: bold;
     color: #3498db;
 }
-/* User action pseudo-class */
+
+/* Button press effect */
 button:active {
     transform: scale(0.98);
 }
-/* Child combinator */
-article > h3 {
-    color: #2c3e50;
-}
-/* Structural selectors */
+
+/* Styles for first child in lists */
 li:first-child {
     font-weight: bold;
 }
-/* Negation pseudo-class */
+
+/* Input styles for fields that are not checkboxes */
 input:not([type="checkbox"]) {
     border-radius: 4px;
 }
-/* Nth pseudo-class */
+
+/* Background for even child elements in article */
 article:nth-child(even) {
     background-color: #f9f9f9;
 }
-/* Validity pseudo-class */
+
+/* Valid input field styling */
 input:valid {
     border-color: #2ecc71;
 }
+
 /* Relational selector */
 h2 + p {
     font-style: italic;
 }
-/* Transforms */
+
+/* Scale effect on hover */
 .project:hover {
     transform: scale(1.05);
 }
-/* Transitions */
+
+/* Transition effect for links */
 a {
     transition: color 0.3s ease;
 }
-/* Animations */
+
+/* Fade-in animation */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -259,121 +266,79 @@ a {
 .fade-in {
     animation: fadeIn 1s ease-in;
 }
+
+/* Profile container layout */
 .profile-container {
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
 }
 
+/* Profile image styling */
 .profile-image {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 50%; /* Circular image */
     object-fit: cover;
     border: 4px solid #3498db;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-
 .profile-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Enlarges on hover */
 }
 
+/* Profile text margin */
 .profile-text {
     margin-left: 2rem;
 }
-/* Update the media query for responsiveness */
+
+/* Responsive layout for small screens */
 @media screen and (max-width: 600px) {
     .profile-container {
         flex-direction: column;
         text-align: center;
     }
-
     .profile-image {
         margin-bottom: 1rem;
     }
-
     .profile-text {
         margin-left: 0;
     }
 }
-/*my socials if needed
-.connect-container {
-    max-width: 300px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
 
-.social-links {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.social-links a {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    color: #333;
-    text-decoration: none;
-    transition: transform 0.3s;
-    border-radius: 5px;
-}
-
-.social-links a:hover {
-    transform: translateX(10px);
-    background: #2c799c;
-}
-
-.social-links i {
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.fa-twitter { color: #1DA1F2; }
-.fa-linkedin { color: #0077B5; }
-.fa-github { color: #333333; }
-socials end*/
-/*footer*/
+/* Footer styles */
 .footer {
-      background: linear-gradient(to right, #2c3e50, #3498db);
-      color: white;
-      padding: 2rem 0;
-      text-align: center;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    }
-
-    .footer-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 1rem;
-    }
-
-    .footer-text {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      opacity: 0.9;
-    }
-
-    .social-links {
-      margin-bottom: 1rem;
-    }
-
-    .social-links a {
-      color: rgb(0, 2, 3);
-      font-size: 2rem;
-      margin: 0 0.5rem;
-      text-decoration: none;
-      transition: opacity 0.2s;
-    }
-
-    .social-links a:hover {
-      opacity: 0.7;
-    }
-
-    .copyright {
-      font-size: 0.8rem;
-      opacity: 0.8;
-    }
+    background: linear-gradient(to right, #2c3e50, #3498db); /* Gradient background */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.footer-text {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+.social-links {
+    margin-bottom: 1rem;
+}
+.social-links a {
+    color: rgb(0, 2, 3);
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+.social-links a:hover {
+    opacity: 0.7; /* Dims link color on hover */
+}
+.copyright {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
